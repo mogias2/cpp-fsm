@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="fsm\finite_state.cpp">
+      <Filter>fsm</Filter>
+    </ClCompile>
+    <ClCompile Include="fsm\finite_state_machine.cpp">
+      <Filter>fsm</Filter>
+    </ClCompile>
+    <ClCompile Include="fsm\state_handler.cpp">
+      <Filter>fsm</Filter>
+    </ClCompile>
+    <ClCompile Include="contents\contents_manager.cpp">
+      <Filter>contents</Filter>
+    </ClCompile>
+    <ClCompile Include="contents\contents.cpp">
+      <Filter>contents</Filter>
+    </ClCompile>
+    <ClCompile Include="contents\json_tool.cpp">
+      <Filter>contents</Filter>
+    </ClCompile>
+    <ClCompile Include="contents\obj_manager.cpp">
+      <Filter>contents</Filter>
+    </ClCompile>
+    <ClCompile Include="contents\obj.cpp">
+      <Filter>contents</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="fsm\finite_state.h">
+      <Filter>fsm</Filter>
+    </ClInclude>
+    <ClInclude Include="fsm\finite_state_machine.h">
+      <Filter>fsm</Filter>
+    </ClInclude>
+    <ClInclude Include="fsm\pch.h">
+      <Filter>fsm</Filter>
+    </ClInclude>
+    <ClInclude Include="fsm\state_action.h">
+      <Filter>fsm</Filter>
+    </ClInclude>
+    <ClInclude Include="fsm\state_handler.h">
+      <Filter>fsm</Filter>
+    </ClInclude>
+    <ClInclude Include="fsm\state_param.h">
+      <Filter>fsm</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h" />
+    <ClInclude Include="container.h" />
+    <ClInclude Include="singleton.h" />
+    <ClInclude Include="contents\contents_manager.h">
+      <Filter>contents</Filter>
+    </ClInclude>
+    <ClInclude Include="contents\pch.h">
+      <Filter>contents</Filter>
+    </ClInclude>
+    <ClInclude Include="contents\contents.h">
+      <Filter>contents</Filter>
+    </ClInclude>
+    <ClInclude Include="contents\json_tool.h">
+      <Filter>contents</Filter>
+    </ClInclude>
+    <ClInclude Include="contents\obj_manager.h">
+      <Filter>contents</Filter>
+    </ClInclude>
+    <ClInclude Include="contents\obj.h">
+      <Filter>contents</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="fsm">
+      <UniqueIdentifier>{d3bd4af3-6073-463e-819e-b1e2bcb239ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="contents">
+      <UniqueIdentifier>{6402fcd7-f6a8-486c-8e55-f4b8ab4cecba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,7 @@
+.vs
+*.exe
+*.pdb
+*.vcxproj.user
+
+**/Debug/**
+**/Release/**
